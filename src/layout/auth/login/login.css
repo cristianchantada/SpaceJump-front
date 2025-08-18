@@ -1,0 +1,157 @@
+.login-form-page {
+	height: 80vh;
+	background: linear-gradient(
+			to bottom,
+			rgba(0, 0, 0, 0.3) 0%,
+			rgba(0, 0, 0, 0.7) 75%,
+			#000 100%
+		),
+		url(../../../assets/img/background-login.jpg) !important;
+	background-position: center !important;
+	background-repeat: no-repeat !important;
+	background-attachment: scroll !important;
+	background-size: cover !important;
+}
+
+.delete-user-form-page {
+	height: 80vh;
+	background: linear-gradient(
+			to bottom,
+			rgba(0, 0, 0, 0.3) 0%,
+			rgba(0, 0, 0, 0.7) 75%,
+			#000 100%
+		),
+		url(../../../assets/img/delete-user.jpg) !important;
+	background-position: center !important;
+	background-repeat: no-repeat !important;
+	background-attachment: scroll !important;
+	background-size: cover !important;
+}
+
+.update-user-form-page {
+	height: 80vh;
+	background: linear-gradient(
+			to bottom,
+			rgba(0, 0, 0, 0.3) 0%,
+			rgba(0, 0, 0, 0.7) 75%,
+			#000 100%
+		),
+		url(../../../assets/img/update-user.jpg) !important;
+	background-position: center !important;
+	background-repeat: no-repeat !important;
+	background-attachment: scroll !important;
+	background-size: cover !important;
+}
+
+.new-space-traveler-title {
+	margin-top: 60px !important;
+}
+
+.space-form-wrapper {
+	display: flex;
+	justify-content: center; /* Añade esta línea */
+	align-items: center;
+}
+
+.space-login-form {
+	background-color: rgba(0, 0, 0, 0.514);
+	padding: 2rem;
+	border-radius: 20px;
+	margin: auto;
+	margin-top: 60px;
+	margin-bottom: 60px;
+	width: 80%;
+	max-width: 500px;
+	box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+	animation: fadeInUp 1s ease;
+}
+
+.space-login-form label {
+	font-family: 'Varela Round', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+		Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji',
+		'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+	font-size: 1.4rem;
+	letter-spacing: 0.2rem;
+	background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
+	-webkit-background-clip: text;
+	background-clip: text;
+}
+
+.space-login-form input {
+	background-color: #64a19d;
+	border: 2px solid #64a19d; /* Borde de color */
+	padding: 0.5rem 1rem;
+	border-radius: 5px;
+	width: 100%;
+	transition: border-color 0.3s ease;
+}
+
+.space-login-form input:focus {
+	outline: none;
+	border-color: #64a19d;
+	box-shadow: 0 0 20px rgba(100, 161, 157, 0.5); /* Sombra al enfocar */
+}
+
+.space-login-form button {
+	background-color: #64a19d;
+	border: none;
+	padding: 0.5rem 2rem;
+	font-size: 1.2rem;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+}
+
+.space-login-form button:hover {
+	background-color: #50857c;
+}
+
+.span-check {
+	color: white;
+	font-family: 'Varela Round', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+		Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji',
+		'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+	font-size: 0.9rem;
+	letter-spacing: 0.1rem;
+	background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
+	-webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
+	background-clip: text;
+}
+
+.forget-password {
+	margin-top: 20px !important;
+	color: black;
+	font-family: 'Varela Round', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+		Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji',
+		'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+	font-size: 1.1rem;
+	letter-spacing: 0.1rem;
+	background: linear-gradient(
+		rgba(255, 255, 255, 0.9),
+		rgba(255, 255, 255, 0.952)
+	);
+	-webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
+	background-clip: text;
+}
+
+.remember-password {
+	-webkit-text-fill-color: rgb(100 161 157) !important;
+}
+
+.remember-password:hover {
+	-webkit-text-fill-color: rgb(11 99 104) !important;
+}
+
+.form-check-input {
+	width: 10px !important;
+	margin-right: 10px;
+}
+
+/* Estilos adicionales para el mensaje de error */
+.error p {
+	margin-top: 0.5rem;
+	transition: color 0.3s ease;
+	color: #a61313;
+}

@@ -1,0 +1,188 @@
+{
+  "navbar": {
+    "greetings": "Welcome, ",
+    "greetings-nonuser": "Welcome, visitor",
+    "user-panel": "User Panel",
+    "home": "HOME",
+    "menu_mobile": "Menu",
+    "travels": "Travels",
+    "create-travel": "Create a unique travel experience",
+    "delete-user": "Delete user",
+    "update-user": "Update User",
+    "logout-user": "Logout",
+    "new-user": "New space traveler",
+    "login-user": "Login",
+    "logout-user": "Logout"
+  },
+  "travel_section": {
+    "title": "TRAVEL TO SPACE",
+    "description": "Embark on the unimaginable with our space exploration platform. Whether you're seeking the journey of your dreams beyond the stars or aiming to vend a life-altering experience, we're here to transform your ambitions into cosmic reality. We unite dreamers and adventurers in an intergalactic marketplace, presenting the opportunity to uncover the mysteries of deep space. Your next space voyage starts here!",
+    "start-journey": "Start your journey here"
+  },
+  "experience_section": {
+    "title": "Live the experience",
+    "text-1": "Live a unique experience that will transport you to a world filled with unparalleled emotions and wonders. On this exceptional journey, we invite you to immerse yourself in a universe of endless possibilities, where every moment will lead you to discover something new and astonishing. From the moment you embark on this journey, you will be immersed in a kaleidoscope of experiences that will challenge your senses and imagination. Venture into dreamlike landscapes, where natural beauty is at its peak, from majestic mountains to white sandy beaches bathed in crystal-clear waters. But this unique experience is not limited to Earth. Get ready to delve into the vast cosmos, where stars and planets will invite you to explore their mysteries. Dare to travel beyond our solar system in search of new worlds and civilizations, and discover the astonishing power of the expanding universe. On this journey, you will not only discover remarkable places and landscapes but also find yourself in a self-discovery adventure. You will learn to appreciate the beauty of diversity and the richness of the human experience. Each day will be an opportunity to grow, learn, and expand your horizons.",
+    "text-2": "But this unique experience is not limited to terrestrial exploration. It will also offer you the opportunity to delve into the depths of the ocean, where fascinating creatures and marine ecosystems will reveal the secrets of an ever-evolving underwater world. Soar through the skies aboard modern aircraft and behold the Earth from a perspective that very few have the opportunity to experience. The cultural richness of this journey will also captivate you. Discover the diversity of cultures that inhabit our planet, from ancient traditions to contemporary artistic expressions. savor delicious local cuisine at each destination, and immerse yourself in the history and architecture of cities filled with charm and mystery.",
+    "text-3": "So, are you ready to live a unique experience that will change your life forever? Embark on this unparalleled journey and let the magic of our world and the universe guide you on a journey you will never forget."
+  },
+  "projects_section": {
+    "title-1": "Travel throughout the solar system!",
+    "text-1": "Get ready for an exciting interplanetary journey that will take you to explore every corner of our solar system, from the scorching sun of Mercury to the icy moons of Neptune. Discover the secrets and wonders of this incredible cosmic voyage!",
+    "title-2": "Discover new worlds and remarkable landscapes!",
+    "text-2": "Embark on a journey full of surprises as you explore new worlds and remarkable landscapes. From exotic earthly landscapes to uncharted extraterrestrial wonders, amazing experiences await you in every corner of our universe.",
+    "title-3": "Travel in all kinds of spacecraft!",
+    "text-3": "Get ready for an exciting adventure where you can travel in all kinds of spacecraft. From high-tech spaceships to classic and exotic vessels, this journey will take you to explore space in the most spectacular and diverse way possible. Embark on a unique intergalactic odyssey!"
+  },
+  "team_members": {
+    "title": "Meet the team that has made it possible"
+  },
+  "subscribe_section": {
+    "title": "Subscribe to receive new updates!",
+    "button-text": "Coming soon!",
+    "placeholder-text": "Enter email adress..."
+  },
+  "contact_section": {
+    "address": "Address",
+    "address-info": "C/ Daniel Vázquez Boo. Nº1. 1ºB. Chantada. Lugo",
+    "email": "Email",
+    "phone": "Phone"
+  },
+  "footer": {
+    "text": "All rights reserved for Cristian Varela Casas | 2025"
+  },
+  "travels_section": {
+    "filter-1": "Search by name",
+    "filter-1-1": "Perform the search by name...",
+    "filter-2": "Search by minimum price",
+    "filter-2-1": "Enter a minimum price...",
+    "filter-3": "Search by maximum price",
+    "filter-3-1": "Enter a maximum price...",
+    "origin": "Origin: ",
+    "destination": "Destination: ",
+    "select": "Select",
+    "published": "Published on:",
+    "remarks": "Remarks:",
+    "price": "Price:",
+    "sale": "Trip for SALE",
+    "search": "LOOKING for a trip",
+    "travel-date": "Travel Date:",
+    "travellers": "Traveler capacity:",
+    "available-seats": "Available Seats:",
+    "user": "User: ",
+    "contact": "CONTACT",
+    "already-buy": "You have already purchased this trip",
+    "travel-here": "TRAVEL HERE",
+    "complete-travel": "FULLY BOOKED TRIP",
+    "no-data-travel": "No travel data available."
+  },
+  "travel_description": {
+    "published": "Published on: ",
+    "own-property": "Trip created by you",
+    "buy-button": "Buy Now",
+    "form-name": "Name",
+    "form-second-name": "Last names",
+    "company": "Company Name",
+    "remarks": "Remarks",
+    "send-mail": "Send Email",
+    "back": "Go back",
+    "whatsapp": "Contact on WhatsApp",
+    "send-mail-user": "Contact on Email",
+    "close-travel": "Do you want to close your trip?",
+    "close-travel-info": "(You can reopen it at any time)",
+    "close-travel-button": "Close my trip",
+    "open-travel": "Do you want to open your trip?",
+    "open-travel-button": "Open my trip",
+    "more-details": "Hover to see more details",
+    "description": "The Description",
+    "origin": "Origin: ",
+    "destination": "Destination: ",
+    "remarks-description": "Comments: ",
+    "travel-departure": "Travel Date: ",
+    "capacity": "Traveler Capacity: ",
+    "available-seats": "Available Seats: ",
+    "edit-travel": "Edit Trip",
+    "delete-travel": "Delete Trip",
+    "confirm-delete": "Confirm Deletion",
+    "cancel-delete": "Cancel"
+  },
+  "travel_purchased": {
+    "congrats": "Congratulations, you're going on a trip!",
+    "success": "The purchase of the trip was successful",
+    "keep-navigation": "Continue browsing"
+  },
+  "error_404": {
+    "text": "Oops... It looks like you're lost in space...",
+    "button": "Back to Home"
+  },
+  "new-user-page": {
+    "new-user-title": "NEW SPACE TRAVELER",
+    "username-label": "Username",
+    "email-label": "Email",
+    "password-label": "Password",
+    "password-confirm-label": "Password confirm",
+    "signup-button": "Sign Up"
+  },
+  "login-page": {
+    "welcome-traveler-title": "Welcome back, traveler",
+    "email-label": "Email",
+    "email-input": "Write your Email...",
+    "password-input": "Write your Password...",
+    "password-label": "Password",
+    "login-button": "Login",
+    "check-remember": "Check to save credentials",
+    "password-forget": "Forgot your password?",
+    "password-remember": "Retrieve Password"
+  },
+  "update-user": {
+    "update-user-title": "Update User",
+    "username-label": "Username",
+    "email-label": "Email",
+    "password-label": "Password",
+    "password-confirm-label": "Confirm Password",
+    "update-button": "Update"
+  },
+  "delete-user": {
+    "delete-user-title": "Delete User",
+    "email-label": "Email",
+    "password-label": "Password",
+    "password-confirm-label": "Confirm Password",
+    "confirm-button": "Confirm"
+  },
+  "new-travel-page": {
+    "title": "CREATE NEW SPACE TRIP",
+    "travel-title": "Your Trip Name",
+    "travel-origin": "Origin",
+    "travel-destination": "Destination",
+    "travel-departure-time": "Departure Date and Time",
+    "travel-departure-error": "The selected time is earlier than the current time. Please change it to a time later than the current one.",
+    "date-select": "Select Date and Time",
+    "travel-price": "Price",
+    "travel-min-price": "The price must be greater than 0",
+    "seats-available": "Available Seats",
+    "seats-min-available": "The number of seats must be greater than 0",
+    "travel-remarks": "Comments",
+    "what-want": "What do you want?",
+    "publish-travel": "Publish a Trip",
+    "search-travel": "Search for a Trip",
+    "upload-photo": "Upload a Photo",
+    "create-travel": "Create trip"
+  },
+  "edit-travel-page": {
+    "delete-photo": "Delete current photo",
+    "confirm-photo": "Are you sure you want to delete this photo?",
+    "confirm": "Confirm",
+    "cancel": "Cancel",
+    "title": "EDIT YOUR SPACE TRIP",
+    "travel-title": "Your trip's name",
+    "travel-origin": "Origin",
+    "travel-destination": "Destination",
+    "travel-departure-time": "Departure date and time",
+    "travel-departure-error": "The selected time is earlier than the current time. Please change it to a time after the current time.",
+    "travel-price": "Price",
+    "seats-available": "Available seats",
+    "travel-remarks": "Comments",
+    "upload-photo": "Upload a photo",
+    "update-travel": "Update Trip",
+    "back": "Go back"
+  }
+}

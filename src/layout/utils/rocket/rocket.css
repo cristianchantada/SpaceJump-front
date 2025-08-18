@@ -1,0 +1,34 @@
+/* Estilos para el cohete */
+.rocket {
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	background-image: url('../../../assets/img/rocket.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	transition: transform 0.5s ease, opacity 0.5s ease 1s;
+	opacity: 0;
+}
+
+/* Animación para volar al hacer hover */
+.btn:hover .rocket {
+	opacity: 1;
+	animation: flyAway 8s ease-in-out forwards;
+}
+@keyframes flyAway {
+	0% {
+		transform: translateY(0) rotate(0);
+		opacity: 1;
+	}
+	25% {
+		transform: translateY(200px) rotate(-45deg);
+	}
+	50% {
+		transform: translateY(-15px) rotate(-45deg);
+	}
+	100% {
+		transform: translateY(-1000px) rotate(-45deg);
+		opacity: 1;
+	}
+}

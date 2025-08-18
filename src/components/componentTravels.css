@@ -1,0 +1,450 @@
+/* NEW TRAVEL PAGE STYLES */
+
+.new-travel-page {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	position: relative;
+}
+
+.new-travel-title {
+	margin-top: 10px !important;
+	background-color: #1251d8 !important;
+}
+
+.new-travel-all-form {
+	z-index: 1;
+}
+
+.video-background {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	z-index: 0;
+}
+
+#new-travel {
+	background-color: #050505;
+	margin: 0;
+	margin-right: 0;
+	height: 230vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-size: cover;
+}
+
+.new-travel-form-wrapper {
+	display: flex;
+	justify-content: center; /* Añade esta línea */
+	align-items: center;
+}
+
+.new-travel-form {
+	background-color: rgba(0, 0, 0, 0.8);
+	padding: 2rem;
+	border-radius: 20px;
+	margin: auto;
+	margin-top: 60px;
+	margin-bottom: 60px;
+	width: 80%;
+	max-width: 500px;
+	box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+	animation: fadeInUp 1s ease;
+}
+
+.new-travel-form label {
+	font-family: 'Varela Round', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+		Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji',
+		'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+	font-size: 1.4rem;
+	letter-spacing: 0.2rem;
+	margin-bottom: 20px;
+	margin-top: 30px;
+	background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
+	-webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
+	background-clip: text;
+}
+
+.new-travel-form input {
+	background-color: transparent;
+	border: 2px solid #64a19d; /* Borde de color */
+	color: #ffffff;
+	padding: 0.5rem 1rem;
+	margin-bottom: 5px;
+	border-radius: 5px;
+	width: 100%;
+	transition: border-color 0.3s ease;
+}
+
+.new-travel-form #remarks {
+	background-color: transparent;
+	border: 2px solid #64a19d; /* Borde de color */
+	color: #ffffff;
+	padding: 0.5rem 1rem;
+	margin-bottom: 5px;
+	border-radius: 5px;
+	width: 100%;
+	transition: border-color 0.3s ease;
+	height: 200px;
+}
+
+.new-travel-form select {
+	background-color: #64a19d;
+	border: 2px solid #64a19d;
+	color: black;
+	padding: 0.5rem 1rem;
+	margin-bottom: 10px; /* Aumenta el margen inferior para separar los select */
+	border-radius: 5px;
+	width: 100%;
+	appearance: none; /* Elimina el estilo nativo del desplegable */
+	-webkit-appearance: none;
+	background-image: url("data:image/svg+xml;utf8,<svg fill='white' width='12' height='6' viewBox='0 0 12 6' xmlns='http://www.w3.org/2000/svg'><path d='M1.5 0l4.5 4.5L10.5 0z' fill='white'/></svg>"); /* Agrega una flecha personalizada */
+	background-repeat: no-repeat;
+	background-position: right 8px center;
+	background-size: 12px 6px;
+	transition: border-color 0.3s ease;
+}
+
+.new-travel-form select:focus {
+	outline: none;
+	border-color: #64a19d;
+	box-shadow: 0 0 20px rgba(100, 161, 157, 0.5);
+}
+
+.new-travel-form #remarks:focus {
+	outline: none;
+	border-color: #64a19d;
+	box-shadow: 0 0 20px rgba(100, 161, 157, 0.5); /* Sombra al enfocar */
+}
+
+.new-travel-form input:focus {
+	outline: none;
+	border-color: #64a19d;
+	box-shadow: 0 0 20px rgba(100, 161, 157, 0.5); /* Sombra al enfocar */
+}
+
+.new-travel-form button {
+	background-color: #64a19d;
+	border: none;
+	padding: 0.5rem 2rem;
+	font-size: 1.2rem;
+	margin-bottom: 5px;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+}
+
+.new-travel-form button:hover {
+	background-color: #50857c;
+}
+
+/* Animación de entrada */
+@keyframes fadeInUp {
+	0% {
+		opacity: 0;
+		transform: translateY(20px);
+	}
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+/* END OF NEW TRAVEL PAGE STYLES */
+
+/* PURCHASED TRAVEL PAGE STYLES */
+.video-background-purchased-travel {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	z-index: 0;
+}
+
+.purchased-travel {
+	text-shadow: 0.1em 0.2em 0.2em black;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	background-color: #000;
+	color: #fff;
+	font-family: var(--bs-body-font-family);
+	text-align: center;
+}
+
+.purchased-travel h1 {
+	font-size: 2rem;
+	margin-bottom: 1rem;
+	text-transform: uppercase;
+	z-index: 1;
+}
+
+.purchased-travel p {
+	font-size: 1.5rem;
+	margin-bottom: 2rem;
+	z-index: 1;
+}
+
+.purchased-travel button {
+	box-shadow: 3px 3px rgba(0, 0, 0, 0.5);
+	padding: 0.7rem 1.3rem;
+	font-size: 1.2rem;
+	background-color: #64a19d;
+	color: #fff;
+	border: none;
+	border-radius: 8px;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+	z-index: 1;
+}
+
+.purchased-travel button:hover {
+	background-color: #407470;
+	z-index: 1;
+}
+
+.icon-purchased {
+	margin-bottom: 30px;
+	top: 20px;
+	right: 20px;
+	font-size: 24px;
+	width: 80px;
+	height: 80px;
+	background-color: #407470;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	z-index: 1;
+	opacity: 0.8;
+	color: #fff;
+}
+
+.tick-purchased {
+	position: relative;
+	z-index: 1;
+}
+
+/* END OF PURCHASED TRAVEL PAGE STYLES */
+
+/* EDIT TRAVEL PAGE STYLES */
+.edit-travel-page {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	position: relative;
+}
+
+.edit-travel-page-title {
+	margin-top: 10px !important;
+	margin-bottom: 40px !important;
+	background-color: #1251d8 !important;
+}
+
+.edit-travel-all-form {
+	z-index: 1;
+}
+
+.video-background-edit-travel-page {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	z-index: 0;
+}
+
+#edit-travel {
+	background-color: #050505;
+	margin: 0;
+	margin-right: 0;
+	height: 200vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-size: cover;
+}
+
+.edit-travel-form-wrapper {
+	display: flex;
+	justify-content: center; /* Añade esta línea */
+	align-items: center;
+}
+
+.edit-travel-form {
+	background-color: rgba(0, 0, 0, 0.8);
+	padding: 2rem;
+	border-radius: 20px;
+	margin: auto;
+	margin-top: 30px;
+	margin-bottom: 60px;
+	width: 80%;
+	max-width: 500px;
+	box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+	animation: fadeInUp 1s ease;
+}
+
+.edit-travel-form label {
+	font-family: 'Varela Round', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+		Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji',
+		'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+	font-size: 1.4rem;
+	letter-spacing: 0.2rem;
+	margin-bottom: 20px;
+	margin-top: 30px;
+	background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
+	-webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
+	background-clip: text;
+}
+
+.edit-travel-form input {
+	background-color: transparent;
+	border: 2px solid #64a19d; /* Borde de color */
+	color: #ffffff;
+	padding: 0.5rem 1rem;
+	margin-bottom: 5px;
+	border-radius: 5px;
+	width: 100%;
+	transition: border-color 0.3s ease;
+}
+
+.edit-travel-form select {
+	background-color: #64a19d;
+	border: 2px solid #64a19d;
+	color: black;
+	padding: 0.5rem 1rem;
+	margin-bottom: 10px; /* Aumenta el margen inferior para separar los select */
+	border-radius: 5px;
+	width: 100%;
+	appearance: none; /* Elimina el estilo nativo del desplegable */
+	-webkit-appearance: none;
+	background-image: url("data:image/svg+xml;utf8,<svg fill='white' width='12' height='6' viewBox='0 0 12 6' xmlns='http://www.w3.org/2000/svg'><path d='M1.5 0l4.5 4.5L10.5 0z' fill='white'/></svg>"); /* Agrega una flecha personalizada */
+	background-repeat: no-repeat;
+	background-position: right 8px center;
+	background-size: 12px 6px;
+	transition: border-color 0.3s ease;
+}
+
+.edit-travel-form select:focus {
+	outline: none;
+	border-color: #64a19d;
+	box-shadow: 0 0 20px rgba(100, 161, 157, 0.5);
+}
+
+.edit-travel-form input:focus {
+	outline: none;
+	border-color: #64a19d;
+	box-shadow: 0 0 20px rgba(100, 161, 157, 0.5); /* Sombra al enfocar */
+}
+
+.edit-travel-form button {
+	background-color: #64a19d;
+	border: none;
+	padding: 0.5rem 2rem;
+	font-size: 1.2rem;
+	margin-bottom: 5px;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+}
+
+.edit-travel-form button:hover {
+	background-color: #50857c;
+}
+
+.product-image-edit-travel {
+	position: relative;
+}
+
+/* Estilo para el botón de eliminación */
+.delete-photo-button-edit-travel {
+	top: 10px;
+	right: 10px;
+	background-color: transparent;
+	border: none;
+	margin-top: 20px;
+	color: #ffffff;
+	font-size: 20px;
+	cursor: pointer;
+	transition: color 0.3s ease;
+	z-index: 2; /* Aumenta el z-index para que esté por encima de la imagen y el fondo de video */
+}
+
+.delete-photo-button-edit-travel:hover {
+	color: #ff0000; /* Cambiar el color al pasar el ratón por encima */
+}
+
+/* Estilo para el overlay de eliminación */
+.delete-photo-overlay-edit-travel {
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	z-index: 1; /* Aumenta el z-index para que esté por encima de la imagen y el fondo de video */
+}
+
+/* Estilos para el mensaje de confirmación de eliminación */
+.img-visualized {
+	width: 400px;
+	height: auto;
+}
+
+.delete-confirmation-edit-travel {
+	background-color: #64a19d;
+	padding: 20px;
+	border-radius: 10px;
+	text-align: center;
+}
+
+.delete-confirmation-edit-travel p {
+	margin-bottom: 10px;
+}
+
+.delete-confirmation-edit-travel button {
+	margin-top: 10px;
+	background-color: #1b6863;
+	color: #ffffff;
+	border: none;
+	padding: 5px 15px;
+	margin: 0 20px;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+}
+
+.delete-confirmation-edit-travel button:hover {
+	background-color: rgba(
+		8,
+		54,
+		51,
+		0.959
+	); /* Cambiar el color al pasar el ratón por encima */
+}
+
+/* END OF EDIT TRAVEL PAGE STYLES */
+
+/* ESTILOS PARA MANEJO DE ERRORES */
+.error p {
+	margin-top: 0.5rem;
+	cursor: pointer;
+	transition: color 0.3s ease;
+}
+
+.error p:hover {
+	color: #a61313;
+}

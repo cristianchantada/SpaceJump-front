@@ -1,0 +1,189 @@
+{
+  "navbar": {
+    "greetings": "Bienvenido, ",
+    "greetings-nonuser": "Bienvenido, visitante",
+    "user-panel": "Panel de Usuario",
+    "home": "INICIO",
+    "menu_mobile": "Menú",
+    "travels": "Viajes",
+    "create-travel": "Crea una experiencia de viaje única",
+    "delete-user": "Eliminar usuario",
+    "update-user": "Actualizar Usuario",
+    "logout-user": "Cerrar sesión",
+    "new-user": "Nuevo viajero espacial",
+    "login-user": "Iniciar sesión",
+    "logout-user": "Cerrar sesión"
+  },
+  "travel_section": {
+    "title": "VIAJA AL ESPACIO",
+    "description": "Embárcate en lo inimaginable con nuestra plataforma de exploración espacial. Ya sea que busques el viaje de tus sueños más allá de las estrellas o desees vender una experiencia que cambiará vidas, estamos aquí para convertir tus ambiciones en realidad cósmica. Conectamos a soñadores y aventureros en un mercado intergaláctico, ofreciendo la oportunidad de descubrir los misterios del espacio profundo. ¡Tu próximo viaje espacial comienza aquí!",
+    "start-journey": "Comienza tu viaje aquí"
+  },
+  "experience_section": {
+    "title": "Vive la experiencia",
+    "text-1": "Vive una experiencia única que te transportará a un mundo lleno de emociones y maravillas inigualables. En este viaje excepcional, te invitamos a sumergirte en un universo de posibilidades infinitas, donde cada momento te llevará a descubrir algo nuevo y asombroso. Desde el instante en que emprendas esta travesía, te verás inmerso en un caleidoscopio de experiencias que desafiarán tus sentidos y tu imaginación. Adéntrate en paisajes de ensueño, donde la belleza natural se encuentra en su máximo esplendor, desde majestuosas montañas hasta playas de arena blanca bañadas por aguas cristalinas. Pero esta experiencia única no se limita a la Tierra. Prepárate para adentrarte en el vasto cosmos, donde las estrellas y los planetas te invitarán a explorar sus misterios. Atrévete a viajar más allá de nuestro sistema solar en busca de nuevos mundos y civilizaciones, y descubre el asombroso poder del universo en expansión. En este viaje, no solo descubrirás lugares y paisajes admirables, sino que también te encontrarás a ti mismo en una aventura de autodescubrimiento. Aprenderás a apreciar la belleza de la diversidad y la riqueza de la experiencia humana. Cada día será una oportunidad para crecer, aprender y expandir tus horizontes.",
+    "text-2": "Pero esta experiencia única no se limita a la exploración terrestre. También te brindará la oportunidad de adentrarte en las profundidades del océano, donde criaturas fascinantes y ecosistemas marinos te revelarán los secretos de un mundo acuático en constante evolución. Surca los cielos a bordo de aeronaves modernas y contempla la Tierra desde una perspectiva que muy pocos tienen la oportunidad de experimentar. La riqueza cultural de este viaje también te cautivará. Descubre la diversidad de culturas que habitan nuestro planeta, desde tradiciones ancestrales hasta manifestaciones artísticas contemporáneas. Saborea la deliciosa gastronomía local en cada destino, y sumérgete en la historia y la arquitectura de ciudades llenas de encanto y misterio.",
+    "text-3": "Entonces, ¿estás listo para vivir una experiencia única que cambiará tu vida para siempre? Embárcate en esta travesía sin igual y deja que la magia de nuestro mundo y del universo te guíe hacia un viaje que nunca olvidarás."
+  },
+  "projects_section": {
+    "title-1": "¡Viaja por todo el sistema solar!",
+    "text-1": "Prepárate para un emocionante viaje interplanetario que te llevará a recorrer cada rincón de nuestro sistema solar, desde el ardiente sol de Mercurio hasta las heladas lunas de Neptuno. ¡Descubre los secretos y maravillas de este asombroso viaje cósmico!",
+    "title-2": "¡Descubre nuevos mundos y paisajes admirables!",
+    "text-2": "Adéntrate en un viaje lleno de sorpresas mientras exploras nuevos mundos y paisajes admirables. Desde exóticos parajes terrestres hasta inexploradas maravillas extraterrestres, te esperan experiencias asombrosas en cada rincón de nuestro universo.",
+    "title-3": "¡Viaja en todo tipo de naves!",
+    "text-3": "Prepárate para una emocionante aventura en la que podrás viajar en todo tipo de naves. Desde naves espaciales de alta tecnología hasta naves clásicas y exóticas, este viaje te llevará a explorar el espacio de la manera más espectacular y variada posible. ¡Embárcate en una odisea intergaláctica única!"
+  },
+  "team_members": {
+    "title": "Conoce a el equipo que lo ha hecho posible"
+  },
+  "subscribe_section": {
+    "title": "¡Subscríbete para recibir noticias nuevas!",
+    "button-text": "¡Próximamente!",
+    "placeholder-text": "Escribe tu dirección de correo electrónico..."
+  },
+  "contact_section": {
+    "address": "Dirección",
+    "address-info": "C/ Daniel Vázquez Boo. Nº1. 1ºB. Chantada. Lugo",
+    "email": "Correo electrónico",
+    "phone": "Teléfono"
+  },
+  "footer": {
+    "text": "Todos los derechos reservados Cristian Varela Casas | 2025"
+  },
+  "travels_section": {
+    "filter-1": "Búsqueda por nombre",
+    "filter-1-1": "Realiza la búsqueda por nombre...",
+    "filter-2": "Búsqueda por precio mínimo",
+    "filter-2-1": "Introduzca un precio mínimo...",
+    "filter-3": "Búsqueda por precio máximo",
+    "filter-3-1": "Introduzca un precio máximo...",
+    "origin": "Origen: ",
+    "destination": "Destino: ",
+    "select": "Seleccionar",
+    "published": "Publicado el:",
+    "remarks": "Comentarios:",
+    "price": "Precio:",
+    "sale": "Se VENDE viaje",
+    "search": "Se BUSCA viaje",
+    "travel-date": "Fecha del viaje:",
+    "travellers": "Capacidad de viajeros:",
+    "available-seats": "Asientos disponibles:",
+    "user": "Usuario: ",
+    "contact": "CONTACTAR",
+    "already-buy": "Ya has comprado este viaje",
+    "travel-here": "VIAJAR AQUÍ",
+    "complete-travel": "VIAJE COMPLETO",
+    "no-data-travel": "No hay información de viajes."
+  },
+  "travel_description": {
+    "published": "Publicado el: ",
+    "own-property": "Viaje creado por ti",
+    "buy-button": "Comprar Ahora",
+    "form-name": "Nombre",
+    "form-second-name": "Apellidos",
+    "company": "Nombre de la compañía",
+    "remarks": "Comentarios",
+    "send-mail": "Enviar Email",
+    "back": "Volver",
+    "whatsapp": "Contactar por Whatsapp",
+    "send-mail-user": "Contactar por correo electrónico",
+    "close-travel": "¿Quieres cerrar tu viaje?",
+    "close-travel-info": "(Podrás volver a abrirlo en cualquier momento)",
+    "close-travel-button": "Cerrar mi viaje",
+    "open-travel": "¿Quieres abrir tu viaje?",
+    "open-travel-button": "Abrir mi viaje",
+    "detail-button": "Ver Detalles",
+    "more-details": "Pasa el ratón para ver más detalles",
+    "description": "La Descripción",
+    "origin:": "Origen: ",
+    "destination": "Destino: ",
+    "remarks-description": "Comentarios: ",
+    "travel-departure": "Fecha del Viaje: ",
+    "capacity": "Capacidad de viajeros: ",
+    "available-seats": "Plazas disponibles: ",
+    "edit-travel": "Editar Viaje",
+    "delete-travel": "Borrar Viaje",
+    "confirm-delete": "Confirmar Borrado",
+    "cancel-delete": "Cancelar"
+  },
+  "travel_purchased": {
+    "congrats": "¡Enhorabuena, te vas de viaje!",
+    "success": "La compra del viaje se ha realizado con éxito",
+    "keep-navigation": "Seguir navegando"
+  },
+  "error_404": {
+    "text": "Ups... Parece que estás perdido en el espacio...",
+    "button": "Volver a Inicio"
+  },
+  "new-user-page": {
+    "new-user-title": "NUEVO VIAJERO ESPACIAL",
+    "username-label": "Nombre de usuario",
+    "email-label": "Correo electrónico",
+    "password-label": "Contraseña",
+    "password-confirm-label": "Confirmar contraseña",
+    "signup-button": "Registrarse"
+  },
+  "login-page": {
+    "welcome-traveler-title": "Bienvenido de nuevo, viajero",
+    "email-label": "Correo electrónico",
+    "email-input": "Escribe tu correo electrónico...",
+    "password-label": "Contraseña",
+    "password-input": "Escribe tu contraseña...",
+    "login-button": "Iniciar Sesión",
+    "check-remember": "Marca para guardar credenciales",
+    "password-forget": "¿Has olvidado la contraseña?",
+    "password-remember": "Recuperar Contraseña"
+  },
+  "update-user": {
+    "update-user-title": "Actualizar Usuario",
+    "username-label": "Nombre de usuario",
+    "email-label": "Correo electrónico",
+    "password-label": "Contraseña",
+    "password-confirm-label": "Contraseña",
+    "update-button": "Actualizar"
+  },
+  "delete-user": {
+    "delete-user-title": "Eliminar Usuario",
+    "email-label": "Correo electrónico",
+    "password-label": "Contraseña",
+    "password-confirm-label": "Confirmar Contraseña",
+    "confirm-button": "Confirmar"
+  },
+  "new-travel-page": {
+    "title": "CREAR NUEVO VIAJE ESPACIAL",
+    "travel-title": "Nombre de tu viaje",
+    "travel-origin": "Origen",
+    "travel-destination": "Destino",
+    "travel-departure-time": "Fecha y hora de salida",
+    "travel-departure-error": "La hora seleccionada es anterior a la hora actual Cámbiala a una hora posterior a la actual.",
+    "date-select": "Selecciona fecha y hora",
+    "travel-price": "Precio",
+    "travel-min-price": "El precio debe ser mayor que 0",
+    "seats-available": "Asientos disponibles",
+    "seats-min-available": "El número de asientos debe ser mayor que 0",
+    "travel-remarks": "Comentarios",
+    "what-want": "¿Qué quieres?",
+    "publish-travel": "Publicar un viaje",
+    "search-travel": "Demandar un viaje",
+    "upload-photo": "Subir una fotografía",
+    "create-travel": "Crear Viaje"
+  },
+  "edit-travel-page": {
+    "delete-photo": "Eliminar fotografía actual",
+    "confirm-photo": "¿Estás seguro de que quieres eliminar esta foto?",
+    "confirm": "Confirmar",
+    "cancel": "Cancelar",
+    "title": "EDITA TU VIAJE ESPACIAL",
+    "travel-title": "Nombre de tu viaje",
+    "travel-origin": "Origen",
+    "travel-destination": "Destino",
+    "travel-departure-time": "Fecha y hora de salida",
+    "travel-departure-error": "La hora seleccionada es anterior a la hora actual Cámbiala a una hora posterior a la actual.",
+    "travel-price": "Precio",
+    "seats-available": "Asientos disponibles",
+    "travel-remarks": "Comentarios",
+    "upload-photo": "Subir una fotografía",
+    "update-travel": "Actualizar Viaje",
+    "back": "Volver atrás"
+  }
+}

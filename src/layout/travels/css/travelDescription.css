@@ -1,0 +1,222 @@
+/* fonts  */
+@import url('https://fonts.googleapis.com/css?family=Abel|Aguafina+Script|Artifika|Athiti|Condiment|Dosis|Droid+Serif|Farsan|Gurajada|Josefin+Sans|Lato|Lora|Merriweather|Noto+Serif|Open+Sans+Condensed:300|Playfair+Display|Rasa|Sahitya|Share+Tech|Text+Me+One|Titillium+Web');
+
+.travel-description-page {
+	background: linear-gradient(
+			to bottom,
+			rgba(0, 0, 0, 0.3) 0%,
+			rgba(0, 0, 0, 0.7) 75%,
+			#000 100%
+		),
+		url('../../../assets/img/travel-description-background.jpg');
+	background-position: absolute;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-size: cover;
+	height: 100vh;
+	padding-top: 240px;
+}
+
+#container-travel-description {
+	box-shadow: 0 15px 30px 1px rgba(128, 128, 128, 0.801);
+	background: rgba(255, 255, 255, 0.849);
+	text-align: center;
+	border-radius: 30px;
+	overflow: hidden;
+	margin: auto;
+	height: 60vh;
+	width: 110vh;
+}
+
+/* 	Product details  */
+.product-details-travel-description {
+	position: relative;
+	text-align: left;
+	overflow: hidden;
+	padding: 30px 0 30px 30px;
+	height: 100%;
+	float: left;
+	width: 40%;
+}
+
+/* 	Product Name */
+#container-travel-description .product-details-travel-description h1 {
+	font-family: 'Old Standard TT', serif;
+	position: relative;
+	text-align: center;
+	font-size: 34px;
+	color: #344055;
+	margin: 0;
+}
+
+/* The most important information about the product */
+#container-travel-description .product-details-travel-description > p {
+	font-family: 'Farsan', cursive;
+	text-align: center;
+	font-size: 20px;
+	color: #7d7d7d;
+	margin-top: 20px;
+}
+
+/* control */
+
+.control-travel-description {
+	position: absolute;
+	bottom: 20%;
+	left: 22.8%;
+}
+
+.contact-buttons {
+	margin-bottom: 30px;
+	bottom: 20%;
+	left: 22.8%;
+}
+/* the Button */
+.btn-travel-description {
+	transform: translateY(0px);
+	transition: 0.3s linear;
+	background: rgb(144 48 128);
+	border-radius: 20px;
+	position: relative;
+	overflow: hidden;
+	cursor: pointer;
+	outline: none;
+	border: none;
+	color: #eee;
+	padding: 0;
+	margin-top: 80px;
+}
+
+.btn-travel-description:hover {
+	transform: translateY(-4px);
+}
+
+.btn-travel-description span {
+	font-family: 'Farsan', cursive;
+	transition: transform 0.3s;
+	display: inline-block;
+	padding: 10px 20px;
+	font-size: 1.2em;
+	margin: 0;
+}
+/* shopping cart icon */
+.btn-travel-description .price-travel-description,
+.shopping-cart-travel-description {
+	background: #333;
+	border: 0;
+	margin: 0;
+}
+
+.btn-travel-description .price-travel-description {
+	transform: translateX(-10%);
+	padding-right: 15px;
+}
+
+/* the Icon */
+.btn-travel-description .shopping-cart-travel-description {
+	transform: translateX(-100%);
+	position: absolute;
+	background: #333;
+	z-index: 1;
+	left: 0;
+	top: 0;
+}
+
+/* buy */
+.btn-travel-description .buy-travel-description {
+	z-index: 3;
+	font-weight: bolder;
+}
+
+.btn-travel-description:hover .price-travel-description {
+	transform: translateX(-110%);
+}
+
+.btn-travel-description:hover .shopping-cart-travel-description {
+	transform: translateX(0%);
+}
+
+/* product image  */
+.product-image-travel-description {
+	transition: all 0.3s ease-out;
+	display: inline-block;
+	position: relative;
+	overflow: hidden;
+	height: 100%;
+	float: right;
+	width: 50%;
+	display: inline-block;
+}
+
+.product-image-travel-description .overlay-text {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: rgba(0, 0, 0, 0.418);
+	color: #fff;
+	padding: 10px;
+	border-radius: 5px;
+	opacity: 1;
+	transition: opacity 0.3s ease;
+}
+
+.product-image-travel-description:hover .overlay-text {
+	opacity: 0;
+}
+
+#container-travel-description img {
+	object-fit: contain;
+	max-width: 100%;
+	height: 100%;
+}
+
+.info-travel-description {
+	background: rgba(27, 26, 26, 0.9);
+	font-family: 'Farsan', cursive;
+	transition: all 0.3s ease-out;
+	transform: translateX(-100%);
+	position: absolute;
+	line-height: 1.9;
+	text-align: left;
+	font-size: 120%;
+	cursor: no-drop;
+	color: #fff;
+	height: 100%;
+	width: 100%;
+	left: 0;
+	top: 0;
+}
+
+.info-travel-description h2 {
+	text-align: center;
+}
+.product-image-travel-description:hover .info-travel-description {
+	transform: translateX(0);
+}
+
+.info-travel-description ul li {
+	transition: 0.3s ease;
+	width: 70%;
+}
+.info-travel-description ul li:hover {
+	transform: translateX(50px) scale(1.3);
+	width: 60%;
+}
+
+.product-image-travel-description:hover img {
+	transition: all 0.3s ease-out;
+}
+.product-image-travel-description:hover img {
+	transform: scale(1.2, 1.2);
+}
+
+.btn-disabled {
+	background-color: #ccc; /* Color de fondo gris cuando está deshabilitado */
+	color: #666; /* Color de texto gris oscuro cuando está deshabilitado */
+	/* Otros estilos aquí */
+}
+
+.fav-hearth:hover {
+	cursor: pointer;
+}
