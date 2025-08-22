@@ -314,6 +314,7 @@ function EditTravelPage() {
 							<button
 								type="submit"
 								disabled={isDisabled}
+								className='m-2'
 							>
 								{t('edit-travel-page.update-travel')}
 							</button>

@@ -365,7 +365,7 @@ const TravelDescription = () => {
                 <>
                   <button
                     onClick={handleDelete}
-                    className="btn-travel-description btn-confirm p-3 m-2"
+                    className="btn-travel-description btn-danger p-3 m-2"
                   >
                     {t("travel_description.confirm-delete")}
                   </button>
@@ -379,7 +379,10 @@ const TravelDescription = () => {
               )}
             </>
           ) : null}
-          <button className="btn-travel-description p-3 m-2" onClick={handleReturn}>
+          <button
+            className="btn-travel-description p-3 m-2"
+            onClick={handleReturn}
+          >
             {t("travel_description.back")}
           </button>
         </div>

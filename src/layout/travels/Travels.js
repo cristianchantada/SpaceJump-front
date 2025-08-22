@@ -273,16 +273,20 @@ const Travels = () => {
 												<br></br>
 												{formatDateTime(travel.datetimeDeparture)}
 											</p>
-											<p className="text-travels-ads">
-												{t('travels_section.travellers')}
-												<br></br>
-												{travel.availableSeats}
-											</p>
-											<p className="text-travels-ads">
-												{t('travels_section.available-seats')}
-												<br></br>
-												{travel.availableSeats - travel.soldSeats}
-											</p>
+											{travel.forSale && (
+												<>
+													<p className="text-travels-ads">
+														{t('travels_section.travellers')}
+														<br />
+														{Number(travel?.availableSeats) || 0}
+													</p>
+													<p className="text-travels-ads">
+														{t('travels_section.available-seats')}
+														<br />
+														{(Number(travel?.availableSeats) || 0) - (Number(travel?.soldSeats) || 0)}
+													</p>
+												</>
+											)}
 											<p className="text-travels-ads">
 												{t('travels_section.user')}
 												<Link

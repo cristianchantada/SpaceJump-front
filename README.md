@@ -5,11 +5,6 @@
 
 ## How to install in local environment
 
-Get repository
-```sh
-git clone https://github.com/Spaice-Jump/FrontEnd.git
-```
-
 Install dependencies with:
 ```sh
 npm install
